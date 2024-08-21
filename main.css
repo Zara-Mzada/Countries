@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#country_section{
+    width: 95%;
+    margin: 30px auto;
+    border: 1px solid black;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+h1{
+    text-align: center;
+}
+.country_item{
+    width: 30%;
+    margin-right: 5%;
+    margin-bottom: 20px;
+    padding: 20px 10px;
+    text-align: center;
+    background-color: rgb(232, 231, 231);
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+.country_item:nth-child(3n){
+    margin-right: 0;
+}
+.country_item img{
+    width: 350px;
+    height: 200px;
+}
+.country_item p{
+    text-align: center;
+    font-size: 20px;
+}
